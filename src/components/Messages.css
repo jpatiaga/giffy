@@ -1,0 +1,37 @@
+.Messages {
+  text-align: left;
+  padding: 10px;
+  overflow: auto;
+  height: calc(100vh - 180px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 780px;
+  margin-left: calc(50% - 400px);
+}
+
+.Message {
+  float: left;
+  clear: both;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.65);
+  max-width: 400px;
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.MessageForm {
+  background-color: #222;
+  height: 40px;
+  padding: 10px;
+}
+
+.MessageForm input {
+  border: 0 none;
+  height: 28px;
+  width: calc(100% - 25px);
+  border-radius: 7px;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
